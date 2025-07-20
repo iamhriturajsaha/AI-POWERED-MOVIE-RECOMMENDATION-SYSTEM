@@ -4,7 +4,7 @@
 Project Objective
 ------------
 
-The goal of this project is as follows:
+The goal of this project is as follows -
 
 1) **Binary and Multi-class Sentiment Analysis** and 
 
