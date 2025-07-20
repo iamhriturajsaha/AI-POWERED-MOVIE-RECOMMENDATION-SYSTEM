@@ -6,7 +6,7 @@ Project Objective
 
 The goal of this project is as follows -
 
-1) **Binary and Multi-class Sentiment Analysis** and 
+1) **Binary and Multi-class Sentiment Analysis**
 
 2) **Movie Recommendation System**.
 
