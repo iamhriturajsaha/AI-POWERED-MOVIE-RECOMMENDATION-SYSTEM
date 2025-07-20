@@ -1,4 +1,4 @@
-# 🤖 AI/ML-POWERED MOVIE RECOMMENDATION SYSTEM
+# 🤖 AI/ML-Powered Movie Recommendation System
 
 
 Project Objective
