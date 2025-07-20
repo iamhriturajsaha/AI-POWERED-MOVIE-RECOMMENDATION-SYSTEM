@@ -10,7 +10,7 @@ The goal of this project is as follows -
 
 2) **Movie Recommendation System**.
 
-This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows:
+This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows -
 
 
 <img src="outline.png" width="800">
