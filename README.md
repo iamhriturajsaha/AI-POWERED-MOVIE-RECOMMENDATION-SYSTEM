@@ -27,7 +27,7 @@ We have used two datasets for sentiment analysis task.
 
 <ul>
 <li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews)</li>
-<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral)</li>
+<li>Tweets dataset with 3-way sentiment labels (Pleasant, Unpleasant, Neutral)</li>
 </ul>
 
 For the sentiment analysis part, we have used **two** approaches.
