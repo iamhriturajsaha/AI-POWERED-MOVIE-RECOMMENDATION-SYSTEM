@@ -6,9 +6,9 @@ Project Objective
 
 The goal of this project is as follows -
 
-1) **Binary and Multi-class Sentiment Analysis**
+1) **Binary and Multi-class Sentiment Analysis.**
 
-2) **Movie Recommendation System**.
+2) **Movie Recommendation System.**
 
 This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows -
 
@@ -26,8 +26,8 @@ Binary and Multi-class Sentiment Analysis System
 We have used two datasets for sentiment analysis task. 
 
 <ul>
-<li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews) [3]</li>
-<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral) [5]</li>
+<li>IMDB Reviews dataset with binary sentiment labels (Positive, Negative reviews)</li>
+<li>Tweets dataset with 3-way sentiment labels (Pleasant, UnPleasant, Neutral)</li>
 </ul>
 
 For the sentiment analysis part, we have used **two** approaches.
