@@ -160,7 +160,7 @@ Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labe
 Recommendation System
 ------------
 
-First, we scraped **omdbapi API** do derive more features for the recommendation system.
+First, we scraped **OMDB API** to derive more features for the recommendation system.
 
 API link - http://www.omdbapi.com/
 
