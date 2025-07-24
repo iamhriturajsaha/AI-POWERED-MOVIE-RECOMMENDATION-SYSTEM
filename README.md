@@ -1,6 +1,5 @@
 # 🤖 AI-Powered Movie Recommendation System
 
-
 Project Objective
 ------------
 
@@ -51,6 +50,7 @@ Random Forest is the collection of many decision trees where at each candidate s
 Logistic Regression is one of the effective model for linear classification problems. Logistic regression provides the weights of each features that are responsible for discriminating each class.
 
 Below are the word cloud visualization for IMDB datasets using Random Forest and Logistic Regression.
+
 <img src="wordcloudafterclassifier.png" width="200">
 
 **Important words for sentiment classification.**
@@ -81,7 +81,7 @@ Below are the word cloud visualization for twitter using Logistic Regression.
 
 ### Deployed NLP Models
 
-For sentiment analysis modeling, we have employed **three deep NLP** based models, as follows:
+For sentiment analysis modeling, we have employed **three deep NLP** based models, as follows -
 
 <ol>
 <li>Recurrent Neural Network (RNN) Based (aka The Baseline)</li>
@@ -100,13 +100,13 @@ This is the first NLP based model for sentiment analysis task. It consists of Re
 
 #### 2. Your Average Sentiment Network (aka AvgNet)
     
-This model works similar to the above, except it uses **Global Average Pooling** insted of RNN nodes. Consequently, it works faster and detailed in this paper [1].
+This model works similar to the above, except it uses **Global Average Pooling** insted of RNN nodes. Consequently, it works faster and detailed in this paper.
 
 <img src="bigrams_model.png" width="700">
 
 #### 3. Convolutional Neural Network (CNN) Based (aka CNet)
 
-This model uses convolutional neural network (CNN) absed approach instead of conventional NLP/RNN method. But still very effective as shown in the evaluation and performance section later. This model has been taken from this paper [2].
+This model uses convolutional neural network (CNN) absed approach instead of conventional NLP/RNN method. But still very effective as shown in the evaluation and performance section later. This model has been taken from this paper.
 
 <img src="cnn_model.png" width="700">
 
@@ -152,7 +152,7 @@ Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labe
 
 <img src="model1_train_tweets.png" width="700">
 
-#### AvgNet again gives reasonable acurracy, precision, and recall values of 92.51%, 0.93 and 0.93 respectively. 
+#### AvgNet again gives reasonable acurracy, precision and recall values of 92.51%, 0.93 and 0.93 respectively. 
 **Word Cloud** for all three sentiment labels are shown below and also being compared with their ground truth in each of the below row.
 
 <img src="wcloud_model1_tweets.png" width="700">
@@ -161,8 +161,10 @@ Recommendation System
 ------------
 
 First, we scraped **omdbapi API** do derive more features for the recommendation system.
-API link: http://www.omdbapi.com/
-**omdbapi API** is an open API, which provides a dataset of IMDB movies with numerous features. We have selected **genres** and **ratings** as these features made more sense than the features like - say **language**. As shown in the following diagram, it doesn't make much sense to select language as there are far more English movies as compared to other languages.
+
+API link - http://www.omdbapi.com/
+
+**OMDB API** is an open API, which provides a dataset of IMDB movies with numerous features. We have selected **genres** and **ratings** as these features made more sense than the features like - say **language**. As shown in the following diagram, it doesn't make much sense to select language as there are far more English movies as compared to other languages.
 
 <img src="languages.PNG" width="700">
 
@@ -179,4 +181,3 @@ Conclusion
 ------------
 
 We performed two different tasks during this project, Binary/Multi-class Sentiment Analysis and Movies Recommendation system. During seniment analysis task, we tried both conventional Machine Learning algorithms (Logistic Regression, Random Forest) as well as current state-of-the-art deep learning based NLP methods (RNN Baseline, AvgNet, CNet). We observed that both types of methods perform pretty effective with reasonable results and accuracy. Also, the automated wordcloud plots give valuable insights about the sentiment present in the used datasets. The automated sentiment extraction process from movie reviews or tweets can prove really helpful for businesses in improving their products based on customer's reviews and feedback with much efficiency and effectivness.
-
