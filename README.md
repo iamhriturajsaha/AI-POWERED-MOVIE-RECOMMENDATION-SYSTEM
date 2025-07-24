@@ -160,11 +160,11 @@ Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labe
 Recommendation System
 ------------
 
-First, we scraped **OMDB API** to derive more features for the recommendation system.
+First, we scraped **OMDb API** to derive more features for the recommendation system.
 
 API link - http://www.omdbapi.com/
 
-**OMDB API** is an open API, which provides a dataset of IMDB movies with numerous features. We have selected **genres** and **ratings** as these features made more sense than the features like - say **language**. As shown in the following diagram, it doesn't make much sense to select language as there are far more English movies as compared to other languages.
+**OMDb API** is an open API, which provides a dataset of IMDB movies with numerous features. We have selected **genres** and **ratings** as these features made more sense than the features like **language**. As shown in the following diagram, it doesn't make much sense to select language as there are far more English movies as compared to other languages.
 
 <img src="languages.PNG" width="700">
 
