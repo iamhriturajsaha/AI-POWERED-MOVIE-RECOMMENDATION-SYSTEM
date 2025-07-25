@@ -2,7 +2,6 @@
 
 Project Objective
 ------------
-
 The goal of this project is as follows -
 
 1) **Binary and Multi-class Sentiment Analysis.**
@@ -11,15 +10,10 @@ The goal of this project is as follows -
 
 This readme first goes through the sentiment analysis part, followed by discussion on recommendation system in the second part. Overall outline of the project is given as follows -
 
-
 <img src="outline.png" width="800">
-
-
 
 Binary and Multi-class Sentiment Analysis System
 ------------
-
-
 ### Used Datasets
 
 We have used two datasets for sentiment analysis task. 
@@ -63,7 +57,6 @@ Below are the word cloud visualization for IMDB datasets using Random Forest and
 
 **Important words for negative class.**
 
-
 Below are the word cloud visualization for twitter using Logistic Regression.
 
 <img src="neturalBalanced.png" width="200">
@@ -78,7 +71,6 @@ Below are the word cloud visualization for twitter using Logistic Regression.
 
 **Important words for unpleasant class.**
 
-
 ### Deployed NLP Models
 
 For sentiment analysis modeling, we have employed **three deep NLP** based models, as follows -
@@ -88,7 +80,6 @@ For sentiment analysis modeling, we have employed **three deep NLP** based model
 <li>Your Average Sentiment Network (aka AvgNet)</li>
 <li>Convolutional Neural Network (CNN) Based (aka CNet)</li>
 </ol>
-
 
 Next, we briefly explain these three models and their training and evaluation details.
 
@@ -125,7 +116,6 @@ IMDB Reviews dataset is a binary sentiment dataset with two labels (Positive, Ne
 <img src="model1_train.png" width="700">
 <img src="model2_train.png" width="700">
 
-
 #### As shown above, the baseline is not doing very good in training and testing phases. AvgNet and CNet shine with good accuracy and other evaluation metrics. 
 
 IMDB Reviews dataset Automated WordCloud Generation using NLP Models
@@ -148,7 +138,7 @@ Once we have the models trained and evaluated, here, we analyze and compare the 
 NLP Models on Tweets Multi-class sentiment dataset
 ------------
 
-Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labels (Pleasant, UnPleasant, Neutral). **Since the AvgNet gave one of the best results, so to avoid redundancy, we only trained and evaluated AvgNet on Tweets dataset.** Following graphs show the AvgNet training loss and training accuracy graphs first on Tweets dataset.
+Tweets dataset is a **multi-class (3-way) sentiment tweets dataset** with 3 labels (Pleasant, Unpleasant, Neutral). **Since the AvgNet gave one of the best results, so to avoid redundancy, we only trained and evaluated AvgNet on Tweets dataset.** Following graphs show the AvgNet training loss and training accuracy graphs first on Tweets dataset.
 
 <img src="model1_train_tweets.png" width="700">
 
@@ -175,7 +165,6 @@ We used following three models for the movie recommendation system.
 <li>Agglomerative clustering</li>
 <li>DBSCAN clustering</li>
 </ul>
-
 
 Conclusion
 ------------
